@@ -9,117 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 
-    <style>
-        .poppins-thin {
-        font-family: "Poppins", serif;
-        font-weight: 100;
-        font-style: normal;
-        }
-
-        .poppins-extralight {
-        font-family: "Poppins", serif;
-        font-weight: 200;
-        font-style: normal;
-        }
-
-        .poppins-light {
-        font-family: "Poppins", serif;
-        font-weight: 300;
-        font-style: normal;
-        }
-
-        .poppins-regular {
-        font-family: "Poppins", serif;
-        font-weight: 400;
-        font-style: normal;
-        }
-
-        .poppins-medium {
-        font-family: "Poppins", serif;
-        font-weight: 500;
-        font-style: normal;
-        }
-
-        .poppins-semibold {
-        font-family: "Poppins", serif;
-        font-weight: 600;
-        font-style: normal;
-        }
-
-        .poppins-bold {
-        font-family: "Poppins", serif;
-        font-weight: 700;
-        font-style: normal;
-        }
-
-        .poppins-extrabold {
-        font-family: "Poppins", serif;
-        font-weight: 800;
-        font-style: normal;
-        }
-
-        .poppins-black {
-        font-family: "Poppins", serif;
-        font-weight: 900;
-        font-style: normal;
-        }
-
-        .poppins-thin-italic {
-        font-family: "Poppins", serif;
-        font-weight: 100;
-        font-style: italic;
-        }
-
-        .poppins-extralight-italic {
-        font-family: "Poppins", serif;
-        font-weight: 200;
-        font-style: italic;
-        }
-
-        .poppins-light-italic {
-        font-family: "Poppins", serif;
-        font-weight: 300;
-        font-style: italic;
-        }
-
-        .poppins-regular-italic {
-        font-family: "Poppins", serif;
-        font-weight: 400;
-        font-style: italic;
-        }
-
-        .poppins-medium-italic {
-        font-family: "Poppins", serif;
-        font-weight: 500;
-        font-style: italic;
-        }
-
-        .poppins-semibold-italic {
-        font-family: "Poppins", serif;
-        font-weight: 600;
-        font-style: italic;
-        }
-
-        .poppins-bold-italic {
-        font-family: "Poppins", serif;
-        font-weight: 700;
-        font-style: italic;
-        }
-
-        .poppins-extrabold-italic {
-        font-family: "Poppins", serif;
-        font-weight: 800;
-        font-style: italic;
-        }
-
-        .poppins-black-italic {
-        font-family: "Poppins", serif;
-        font-weight: 900;
-        font-style: italic;
-        }
-
-    </style>
 </head>
 <body class="w-full poppins-regular text-slate-900 bg-stone-100">
     <!-- header -->
@@ -151,7 +42,7 @@
                 <h1 class="md:text-8xl text-6xl font-bold">Boost Your <span class="text-purple-600">Product</span>ivity</h1>
                 <p class="text-2xl font-semibold">Streamline your workflow with our all-in-one productivity app.</p>
             </div>
-            <button class="bg-slate-900 text-white py-4 px-10 rounded-xl font-bold text-lg">Start Free Trial</button>
+            <button class="bg-slate-900 text-white py-4 px-10 rounded-xl font-bold text-lg hover:scale-110 duration-300 ease-in-out hover:cursor-pointer hover:bg-slate-800">Start Free Trial</button>
         </div>
         <!-- box details -->
         <div class="flex flex-col md:flex-row gap-10 justify-between md:pt-40  p-10 md:p-0">
@@ -182,7 +73,8 @@
       <!-- footer section -->
        <section class="container mx-auto flex flex-col justify-center items-center md:pt-40 pt-20">
         <!-- form section -->
-            <div class="w-full flex flex-col gap-6 justify-center items-center md:p-20 p-12 bg-white rounded-4xl shadow-lg">
+        <!-- <div class="w-full flex flex-col gap-6 justify-center items-center md:p-20 p-12 bg-white rounded-4xl shadow-lg"> -->
+            <div class="w-full flex flex-col gap-6 justify-center items-center p-12 bg-white rounded-4xl shadow-lg">
                 <h1 class="text-5xl font-semibold">Get in Touch</h1>
                 <form action="#" class="flex flex-col gap-2 pb-5 ">
                     <label for="name">Name</label>
@@ -192,7 +84,7 @@
                     <label class="pt-5" for="message">Message</label>
                     <textarea id="message" placeholder="Your Message ..." class="md:w-2xl w-full p-2 h-30 border border-gray-300 rounded-2xl"></textarea>
                 </form>
-                <button type="submit" class="bg-slate-900 text-white py-4 px-10 md:w-2xl w-full rounded-xl font-bold text-lg">Submit</button>
+                <button type="submit" class="bg-slate-900 text-white py-4 px-10 md:w-2xl w-full rounded-xl font-bold text-lg hover:scale-105 duration-300 ease-in-out hover:cursor-pointer hover:bg-slate-800">Submit</button>
             </div>
         <!-- footer section -->
             <div class="flex flex-col gap-5 md:flex-row w-full justify-between items-center pt-20 pb-10">
@@ -207,6 +99,5 @@
                 </div>
             </div>
        </section>
-
 </body>
 </html>
